@@ -57,14 +57,16 @@ function Login() {
                     <div className="container has-text-centered">
                         <div className="column is-6 is-offset-3" id="glasscreate">
                             <h1 className="title">
-                                Create an Event
+                                Login
                             </h1>
                             <div className="">
                                 <div className="field is-grouped">
                                     <p className="control is-expanded">
                                         <input className="input form" type="text" placeholder="Email" onChange={(e)=> setTitle(e.target.value)}/>
                                         <input className="input form" type="password" placeholder="Password" onChange={(e) => setDate(e.target.value)}/>
-                                        <button className="button" id="create" onClick={login}>Create an Account</button>
+                                        <button className="button" id="create" onClick={login}>Log in</button>
+                                        <button className="button">Not a member yet ? Create an Account</button>
+
 
                                     </p>
                                 </div>

@@ -57,7 +57,7 @@ function CreateAccount() {
                     <div className="container has-text-centered">
                         <div className="column is-6 is-offset-3" id="glasscreate">
                             <h1 className="title">
-                                Create an Event
+                                Create an Account
                             </h1>
                             <div className="">
                                 <div className="field is-grouped">
